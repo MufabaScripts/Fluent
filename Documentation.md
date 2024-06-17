@@ -135,13 +135,13 @@ Tabs.Main:AddButton({
 To add a toggle switch:
 
 ```lua
-local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Toggle", Default = false })
-
-Toggle:OnChanged(function()
-    print("Toggle changed:", Options.MyToggle.Value)
-end)
-
-Options.MyToggle:SetValue(false)
+local farmToggle = BrakSection:AddToggle("MyToggle", {
+    Title = "Toggle",
+    Default = false,
+    Callback = function(Value)
+        print("Toggle changed:", Value)
+    end
+})
 ```
 
 ## Creating a Slider
@@ -178,9 +178,10 @@ local Dropdown = Tabs.Main:AddDropdown("Dropdown", {
     Values = {"one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen"},
     Multi = false,
     Default = 1,
+    Callback = function(Value)
+        print("Selected: ", Value)
+    end
 })
-
-Dropdown:SetValue("four")
 
 Dropdown:OnChanged(function(Value)
     print("Dropdown changed:", Value)
@@ -207,6 +208,9 @@ local MultiDropdown = Tabs.Main:AddDropdown("MultiDropdown", {
     Values = {"one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen"},
     Multi = true,
     Default = {"seven", "twelve"},
+    Callback = function(Value)
+        print("Selected: " Value)
+    end
 })
 
 MultiDropdown:SetValue({
