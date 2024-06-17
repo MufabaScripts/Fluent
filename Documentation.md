@@ -1,5 +1,3 @@
-Sure! I'll integrate the section creation code into the "Creating Tabs" part and provide a complete example:
-
 # Fluent Library Documentation
 
 This documentation is for the stable release of Fluent Library.
@@ -359,11 +357,5 @@ InterfaceManager:SetFolder("FluentScriptHub")
 SaveManager:SetFolder("FluentScriptHub/specific-game")
 
 InterfaceManager:BuildInterfaceSection(Tabs.Settings)
-SaveManager:BuildConfigSection(Tabs
-
-.Settings)
+SaveManager:BuildConfigSection(Tabs.Settings)
 ```
-
----
-
-Feel free to adjust and expand upon this documentation to suit your needs!
