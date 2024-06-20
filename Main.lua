@@ -5609,7 +5609,7 @@ local aa = {
         local c, U, a2, a3, a4 = b(60)
         return {
             Name = "Black",
-            Accent = Color3.fromRGB(20, 20, 20),
+            Accent = Color3.fromRGB(96, 205, 255),
             AcrylicMain = Color3.fromRGB(0, 0, 0),
             AcrylicBorder = Color3.fromRGB(0, 0, 0),
             AcrylicGradient = ColorSequence.new(Color3.fromRGB(20, 20, 20), Color3.fromRGB(0, 0, 0)),
@@ -5631,6 +5631,7 @@ local aa = {
             Input = Color3.fromRGB(100, 100, 100),
             InputFocused = Color3.fromRGB(20, 10, 30),
             InputIndicator = Color3.fromRGB(170, 150, 190),
+            InputIndicatorFocus = Color3.fromRGB(0, 103, 192),
             Dialog = Color3.fromRGB(30, 30, 30),
             DialogHolder = Color3.fromRGB(40, 40, 40),
             DialogHolderLine = Color3.fromRGB(60, 60, 60),
