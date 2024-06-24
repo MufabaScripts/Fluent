@@ -3870,6 +3870,7 @@ local aa = {
                 ["lucide-egg-New"] = "rbxassetid://16479252963",
                 ["lucide-egg-fried"] = "rbxassetid://10723345347",
                 ["lucide-electricity"] = "rbxassetid://10723345749",
+                ["lucide-Potion"] = "rbxassetid://17531455040",
                 ["lucide-electricity-off"] = "rbxassetid://10723345643",
                 ["lucide-equal"] = "rbxassetid://10723345990",
                 ["lucide-equal-not"] = "rbxassetid://10723345866",
