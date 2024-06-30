@@ -4052,6 +4052,7 @@ local aa = {
                 ["lucide-info"] = "rbxassetid://10723415903",
                 ["lucide-inspect"] = "rbxassetid://10723416057",
                 ["lucide-italic"] = "rbxassetid://10723416195",
+                ["lucide-offers"] = "rbxassetid://18232095099",
                 ["lucide-japanese-yen"] = "rbxassetid://10723416363",
                 ["lucide-joystick"] = "rbxassetid://10723416527",
                 ["lucide-key"] = "rbxassetid://10723416652",
