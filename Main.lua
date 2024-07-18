@@ -1,6 +1,6 @@
 --[[
     Fluent Interface Suite
-    This script is not intended to be modified.1
+    This script is not intended to be modified.
     To view the source code, see the 'src' folder on GitHub!
 
     Author: dawid
@@ -411,7 +411,7 @@ local aa = {
                     ),
                     j("UICorner", {CornerRadius = UDim.new(0, 8)}),
                     j(
-                        "FluntIsFrame",
+                        "Frame",
                         {
                             BackgroundTransparency = 0.45,
                             Size = UDim2.fromScale(1, 1),
