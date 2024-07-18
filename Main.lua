@@ -7,6 +7,8 @@
     License: MIT
     GitHub: https://github.com/dawid-scripts/Fluent
 --]]
+getgenv().FluentStatus = true
+
 local a, b = {
     {
         1,
@@ -222,6 +224,7 @@ local aa = {
                     x.Window.AcrylicPaint.Model:Destroy()
                 end
                 p.Disconnect()
+                getgenv().FluentStatus = false
                 x.GUI:Destroy()
             end
         end
