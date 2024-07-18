@@ -411,7 +411,7 @@ local aa = {
                     ),
                     j("UICorner", {CornerRadius = UDim.new(0, 8)}),
                     j(
-                        "Frame",
+                        "FluntIsFrame",
                         {
                             BackgroundTransparency = 0.45,
                             Size = UDim2.fromScale(1, 1),
