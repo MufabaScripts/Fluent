@@ -135,7 +135,7 @@ Tabs.Main:AddButton({
 To add a toggle switch:
 
 ```lua
-local farmToggle = BrakSection:AddToggle("MyToggle", {
+local Toggle = Tabs.Main:AddToggle("MyToggle", {
     Title = "Toggle",
     Default = false,
     Callback = function(Value)
