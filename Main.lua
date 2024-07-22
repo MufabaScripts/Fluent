@@ -4334,6 +4334,7 @@ local aa = {
                 ["lucide-switch-camera"] = "rbxassetid://10734975214",
                 ["lucide-sword"] = "rbxassetid://10734975486",
                 ["lucide-swords"] = "rbxassetid://10734975692",
+                ["lucide-Shell"] = "rbxassetid://18609011469",
                 ["lucide-syringe"] = "rbxassetid://10734975932",
                 ["lucide-table"] = "rbxassetid://10734976230",
                 ["lucide-table-2"] = "rbxassetid://10734976097",
